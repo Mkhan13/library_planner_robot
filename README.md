@@ -4,16 +4,16 @@
 
 ### Real-World Scenario Being Modeled
 
-This project models a real-world robot that operates inside a library. The robot's job is to retrieve the specified books from the library shelves and deliver them to the front desk for a person to pick up.  
+This project models a real-world robot that operates inside a library. The robot's job is to retrieve the specified book from the library shelf and deliver it to the front desk for pick up.  
 
 ### Entities / Objects in the Domain
 
 - The robot
 - Books
 - Locations:
-  - `Base:` the robot’s starting location
-  - `Shelf:` where the books are
-  - `Desk:` where the books get delivered
+  - `base:` the robot’s starting location
+  - `shelf:` where the books are
+  - `desk:` where the books get delivered
 
 ### Agent Objective
 
@@ -62,10 +62,10 @@ This task cannot be solved by a simple reflex agent because the robot needs to m
 
 #### Initial State
 
-- `At(robot, Base)`
-- `At(BookA, Shelf)`
+- `At(robot, base)`
+- `At(book, shelf)`
 - `HandEmpty`
 
 #### Goal State
 
-- `At(BookA, Desk)`
+- `At(book, desk)`
