@@ -66,6 +66,6 @@ This task cannot be solved by a simple reflex agent because the robot needs to m
 - `At(book, shelf)`
 - `HandEmpty`
 
-#### Goal State
+#### Goal State 
 
 - `At(book, desk)`
