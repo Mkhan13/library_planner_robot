@@ -14,7 +14,7 @@ def apply_action(state, action):
         if fact in new_state:
             new_state.remove(fact)
 
-    for fact in action['add_list']: # Add add-effects
+    for fact in action['add_list']: # Add add-effects 
         new_state.add(fact)
 
     return new_state
