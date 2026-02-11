@@ -97,7 +97,7 @@ plan, states_explored = forward_search(initial_state, goal_state, actions)
 if plan:
     for step in plan:
         print(step)
-    print(f'Plan length: {len(plan)} steps')
+    print(f'\nPlan length: {len(plan)} steps')
 else:
 
     print('No plan found')
