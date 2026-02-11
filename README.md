@@ -29,8 +29,8 @@ This task cannot be solved by a simple reflex agent because the robot needs to m
 
 ### Predicates / Fluents
 
-`At(robot, location)`: The robot location
-`At(book, location)`: The book(s) location
+`At(robot, location)`: The robot's location
+`At(book, location)`: The book's location
 `Holding(book)`: The robot is holding a book
 `HandEmpty`: The robot is not holding a book
 
